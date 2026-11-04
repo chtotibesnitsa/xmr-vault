@@ -87,7 +87,8 @@ To let people link their X account as well:
 
 ```
 cd web && npm run build && cd ..
-node trailer/render.cjs web/dist teaser wraith-teaser.mp4 xmr
+node trailer/render.cjs web/dist hype piconero-hype.mp4 xmr
+node trailer/render.cjs web/dist teaser piconero-teaser.mp4 xmr
 ```
 
 The soundtrack is synthesized by `trailer/sfx.py`, so no samples or licenses are involved. Activity in the trailer is a redacted UI preview, never real or invented wallets.
